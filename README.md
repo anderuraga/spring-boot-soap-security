@@ -32,12 +32,13 @@ Se carga el beers.xsd y se define donde atiende el servicio web: [http://localho
 
 ### seguridad
 
-com.memorynotfound.server.SoapServerConfig
+com.memorynotfound.server.SoapServerConfig 
+Usamos un UsernameToken (admin, secret) encriptado que se envia en la cabecera del envelope. Adicionalmente tambien usamos un Timestamp con el tiempo que la petición es valida.
 
 
-    - *SimplePasswordValidationCallbackHandler 
-    - Wss4jSecurityInterceptor
-    - addInterceptors
+    - *SimplePasswordValidationCallbackHandler  => UsernameToken(admin,user)
+    - Wss4jSecurityInterceptor => Interceptor propio para TimeStamp
+    - addInterceptors => añade el interceptor
 
 *Recomendable cambiar SimplePasswordValidationCallbackHandler => SpringSecurityPasswordValidationCallbackHandler which you can register the UserDetailsService to retrieve your user information.
 
