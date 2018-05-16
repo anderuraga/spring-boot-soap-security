@@ -55,10 +55,15 @@ Clase donde se definien los mensajes de entrada y salida para el servicio
 
 
 ## Referencias 
-Tutorial Ingles(https://memorynotfound.com/spring-ws-username-password-authentication-wss4j/)
-Apache WSS4J(https://ws.apache.org/wss4j/)
-Wss4jSecurityInterceptor JavaDoc(https://docs.spring.io/spring-ws/docs/2.2.4.RELEASE/api/org/springframework/ws/soap/security/wss4j/Wss4jSecurityInterceptor.html)
-Wss4jSecurityInterceptor Documentation(https://docs.spring.io/spring-ws/docs/2.2.4.RELEASE/reference/htmlsingle/#security-wss4j-security-interceptor)
+Tutorial Ingles(https://memorynotfound.com/spring-ws-username-password-authentication-wss4j/) 
+
+Apache WSS4J(https://ws.apache.org/wss4j/) 
+
+Wss4jSecurityInterceptor JavaDoc(https://docs.spring.io/spring-ws/docs/2.2.4.RELEASE/api/org/springframework/ws/soap/security/wss4j/Wss4jSecurityInterceptor.html) 
+
+Wss4jSecurityInterceptor Documentation(https://docs.spring.io/spring-ws/docs/2.2.4.RELEASE/reference/htmlsingle/#security-wss4j-security-interceptor) 
+
+ 
 
 
 
